@@ -21,19 +21,16 @@ build_package() {
   trizen -S --skipinteg --movepkg --movepkg-dir=packages --noconfirm --noedit $1
 }
 
-build_package ttf-ms-fonts
 build_package nerd-fonts-complete
-build_package antigen-git
-build_package gitflow-avh
-build_package google-chrome
-build_package visual-studio-code-bin
-build_package gpmdp
-build_package teamviewer-beta
+build_package ttf-ms-fonts
+build_package ttf-hack-powerline-git
+build_package ttf-font-awesome-4
 build_package pulseaudio-ctl
-build_package j4-dmenu-desktop
-build_package polybar
-build_package alacritty-git
+build_package libcgroup
 build_package autorandr-git
-build_package feh
+build_package rambox-bin
+build_package polybar
+build_package visual-studio-code-bin
+build_package google-chrome
 
 repo-add packages/johannesfrey.db.tar.gz packages/*.pkg.tar.xz
