@@ -36,4 +36,4 @@ build_package alacritty-git
 build_package autorandr-git
 build_package feh
 
-repo-add packages/pauldotknopf.db.tar.gz packages/*.pkg.tar.xz
+repo-add packages/johannesfrey.db.tar.gz packages/*.pkg.tar.xz
